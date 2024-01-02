@@ -1,2 +1,7 @@
 from datetime import datetime
-print("Time now is", datetime.now())
+
+def main():
+    print("Time now is", datetime.now())
+
+
+main()
