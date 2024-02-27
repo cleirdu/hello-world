@@ -1,10 +1,10 @@
-from datetime import datetime
+import datetime
 
-def main():
-    """
-    Print the current time in the format "YYYY-MM-DD HH:MM:SS.xxxxxx"
-    """
-    print("Time now is", datetime.now())
+def time():
+    current_time = datetime.datetime.now()
+    formatted_datetime = current_time.strftime("%H:%M %m/%d/%Y")
+    return formatted_datetime
 
 
-main()
+if __name__ == '__main__':
+    print(time())

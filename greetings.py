@@ -1,5 +1,8 @@
-def main():
-    print("Hello world.")
-    print("--Cleir")
+def greetings(name):
+    message = "Hi there! -- " + name
+    return message
 
-main()
+
+if __name__ == '__main__':
+    name = "Clare"
+    print(greetings(name))
