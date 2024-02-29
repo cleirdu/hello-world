@@ -13,8 +13,6 @@ It wil send out the message "Hi there! -- FirstName LastName".
 ##### Example
 
  * Calling `greetings("Sherlock Holmes")` will return `"Hi there! -- Sherlock Holmes"`
- * Calling `greetings("John H. Watson")` will return `"Hi there! -- John H. Watson"`
- * Calling `greetings("Clare")` will return `"Hi there! -- Clare"`
  
 ### Time
 
