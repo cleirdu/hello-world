@@ -1,4 +1,7 @@
 def greetings(name):
+    """
+    Returns a simple greting message, given your name.
+    """
     message = "Hi there! -- " + name
     return message
 
