@@ -1,6 +1,6 @@
 def greetings(name):
     """
-    Returns a simple greting message, given your name.
+    Returns a simple greeting message, given your name.
     """
     message = "Hi there! -- " + name
     return message
